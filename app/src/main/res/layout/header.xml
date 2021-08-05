@@ -3,8 +3,9 @@
     style="@style/ThemeOverlay.AppCompat.Dark"
     android:layout_width="match_parent"
     android:layout_height="100dp"
-    android:background="#0E0E0E"
-    android:padding="25dp">
+    android:background="@drawable/logo"
+    android:padding="25dp"
+    >
 
     <TextView
         style="@style/TextAppearance.AppCompat.Body1"

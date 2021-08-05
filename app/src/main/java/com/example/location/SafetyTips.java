@@ -30,7 +30,6 @@ public class SafetyTips extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_safetytips);
-
         Button turnado1 = findViewById (R.id.turnado);
         Button hurricane1 = findViewById (R.id.hurricane);
         Button thunderstorm1 = findViewById (R.id.thunderstorm);

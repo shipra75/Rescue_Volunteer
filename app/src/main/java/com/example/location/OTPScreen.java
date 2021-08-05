@@ -50,7 +50,7 @@ public class OTPScreen extends AppCompatActivity {
         ccp =(CountryCodePicker) findViewById (R.id.ccp);
         ccp.registerCarrierNumberEditText (phoneText);
         if(mAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(),MapsActivity.class));
+            startActivity(new Intent(getApplicationContext(),Registration_page.class));
             finish();
         }
         continueAndNextBtn.setOnClickListener (new View.OnClickListener ( ) {
@@ -118,8 +118,6 @@ public class OTPScreen extends AppCompatActivity {
 
             }
         };
-
-
     }
 
     private void signInWithPhoneAuthCredential(PhoneAuthCredential credential) {

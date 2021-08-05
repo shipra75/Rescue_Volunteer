@@ -13,20 +13,20 @@
     <item android:id="@+id/nav_settings"
         android:title="Settings"
         android:icon="@drawable/ic_baseline_settings_24"/>
+</group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
 
-    <item android:id="@+id/nav_logout"
-        android:title="Logout"
-        android:icon="@drawable/logout_icon"/>
-        <item android:id="@+id/Share"
-            android:title="Share"
+        <item android:id="@+id/nav_share"
             android:icon="@drawable/ic_baseline_share_24"
-            />
+            android:title="Share">
+        </item>
         <item android:id="@+id/Privacypolicy"
             android:title="Privacy Policy"
             android:icon="@drawable/ic_baseline_privacy_tip_24"
             />
-      <item android:id="@+id/aboutus"
-          android:title="About Us"
-          />
+        <item android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/logout_icon"/>
     </group>
 </menu>
